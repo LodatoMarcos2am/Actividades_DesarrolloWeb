@@ -11,7 +11,8 @@ Este repositorio contiene la actividad correspondiente a la Semana 3.
 
 ## Link a la página publicada
 
-🔗 [Ver página](https://TU_USUARIO.github.io/TU_REPOSITORIO)
+🔗 [Page]([https://TU_USUARIO.github.io/TU_REPOSITORIO](https://lodatomarcos2am.github.io/Actividades_DesarrolloWeb/))
+🔗 [NOticia]([[https://TU_USUARIO.github.io/TU_REPOSITORIO](https://lodatomarcos2am.github.io/Actividades_DesarrolloWeb/)](https://www.eldestapeweb.com/deportes/automovilismo/briatore-revelo-el-problema-que-podria-tener-colapinto-si-vuelve-a-la-f1-202549154157))
 
 ## Autor
 
