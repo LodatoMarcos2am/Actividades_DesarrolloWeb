@@ -165,9 +165,7 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/* ----------------------------
-   MEDIA QUERIES RESPONSIVE
------------------------------ */
+
 
 /* Tablet (max 768px) */
 @media (max-width: 768px) {
