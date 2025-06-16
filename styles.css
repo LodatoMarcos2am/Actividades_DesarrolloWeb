@@ -312,16 +312,14 @@ nav
   max-width: 500px;
 }
 
-.Input_group input
- {
+.Input_group input {
   flex: 1;
   padding: 12px 15px;
-  border: none;
+  border: 2px solid #ccc;
   border-radius: 6px;
   font-size: 16px;
   font-family: "Segoe UI", sans-serif;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.3s;
+  transition: border 0.3s, border-image 0.3s;
 }
 
 
@@ -478,3 +476,21 @@ nav
     font-size: 1.5em;
   }
 }
+.Input_group select {
+  flex: 1;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-family: "Segoe UI", sans-serif;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+  background-color: white;
+  color: #333;
+}
+
+
+.Input_group select option[disabled][selected] {
+  color: #999;
+}
+
