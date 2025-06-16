@@ -80,19 +80,39 @@
 
                 <p class="Descripcion_suscripcion">Recibí las últimas noticias de deportes y automovilismo directo en tu email</p>
                 
-                <form class="Formulario_suscripcion" action="#" method="POST">
+                <form class="Formulario_suscripcion">
                     <div class="Input_group">
-                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
-                    <input type="email" id="email" name="email" placeholder="Tu email" required>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+                    <input type="email" id="email" name="email" placeholder="Tu email">
                     </div>
-
+<div class="Input_group">
+                        <select id="sexo" name="sexo">
+                            <option value="" disabled selected>Selecciona tu sexo</option>
+                            <option value="masculino">Masculino</option>
+                            <option value="femenino">Femenino</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                        <select id="pais" name="pais">
+                            <option value="" disabled selected>Selecciona tu país</option>
+                            <option value="argentina">Argentina</option>
+                            <option value="brasil">Brasil</option>
+                            <option value="chile">Chile</option>
+                            <option value="mexico">México</option>
+                            <option value="espana">España</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+                    <div class="Input_group">
+                        <input type="tel" id="telefono" name="telefono" placeholder="Número de teléfono" pattern="[0-9]{10,15}" title="Ingresa un número de teléfono válido (10-15 dígitos)">
+                        <input type="text" id="interes" name="interes" placeholder="Intereses (ej. F1, fútbol)">
+                    </div>
                     <div class="Checkbox_container">
-                    <input type="checkbox" id="acepto" name="acepto" required>
+                    <input type="checkbox" id="acepto" name="acepto">
 
                     <label for="acepto">Acepto recibir información de El Destape y sus términos de uso</label>
                     </div>
 
-                    <button type="submit" class="Boton_suscribir">Suscribirme</button>
+                    <button type="submit" id="Boton_Submit" class="Boton_suscribir">Suscribirme</button>
                 </form>
 
             </div>
@@ -151,4 +171,5 @@
         </div>
     </footer>
 </body>
+<script src="index.js"></script>
 </html>
